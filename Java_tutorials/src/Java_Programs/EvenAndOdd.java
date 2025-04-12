@@ -14,6 +14,9 @@ public class EvenAndOdd {
 				even = even + U[b];
 			} else {
 				System.out.println("odd" + "-" + U[b]);
+				System.out.println("odd" + "-" + U[b]);
+				System.out.println("odd" + "-" + U[b]);
+				System.out.println("odd" + "-" + U[b]);
 				odd = odd + U[b];
 			}
 
