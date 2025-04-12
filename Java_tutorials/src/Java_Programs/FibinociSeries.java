@@ -12,6 +12,18 @@ public class FibinociSeries {
 		   first = second;
 		   second = next;
 		}
+		for(int i =0; i<10; i++) {
+			int next = first+second;
+		   System.out.print(","+next);
+		   first = second;
+		   second = next;
+		}
+		for(int i =0; i<10; i++) {
+			int next = first+second;
+		   System.out.print(","+next);
+		   first = second;
+		   second = next;
+		}
 
 	}
 
