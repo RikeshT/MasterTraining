@@ -1,0 +1,22 @@
+package Java_Programs;
+
+public class ReverseOfString {
+
+	public static void main(String[] args) {
+		String N = "ABCD";
+		int X = N.length();//length is pre defined method in java
+		for (int i = X; i > 0;) {
+			System.out.print(N.charAt(--i));
+		}
+		//Another way of reverse of String
+		String[] M = { "A", "b", "C", "E" };
+		int Y = M.length;//length is property without any parenthesis
+		System.out.print(Y);
+		for (int j = Y; j > 0;) {
+			System.out.print(M[--j]);
+
+		}
+
+	}
+
+}

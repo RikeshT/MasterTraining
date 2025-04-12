@@ -1,0 +1,20 @@
+package Java_Programs;
+
+import java.lang.reflect.Array;
+
+public class LargestNumber {
+
+	public static void main(String[] args) {
+		int[] array = { 1, 2, 4, 5, 3, 7 };
+		int temp = 0;
+		for (int i = 0; i < array.length; i++) {
+			if (temp < array[i]) {
+				temp = array[i];
+			}
+
+		} 
+		System.out.println("Largest Number" + temp);
+
+	}
+
+}

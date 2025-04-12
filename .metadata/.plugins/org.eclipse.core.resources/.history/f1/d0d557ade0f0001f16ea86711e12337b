@@ -1,0 +1,32 @@
+package Java_Programs;
+
+public class ReverseOfString {
+
+	public static void main(String[] args) {
+		String N = "ACCA";
+		
+		int X = N.length();//length is pre defined method in java
+		System.out.println(X);
+		for (int i = X; i > 0;) {
+			System.out.print(N.charAt(--i));
+			String temp = temp+ "N.charAt(--i)";
+			
+		}
+		if(N == temp) {
+			System.out.println("It is palindrom");
+		}
+		else {
+			System.out.println("It is not palindrom");
+		}
+		//Another way of reverse of String
+		String[] M = { "A", "b", "C", "E" };
+		int Y = M.length;//length is property without any parenthesis
+		System.out.print(Y);
+		for (int j = Y; j > 0;) {
+			System.out.print(M[--j]);
+
+		}
+
+	}
+
+}

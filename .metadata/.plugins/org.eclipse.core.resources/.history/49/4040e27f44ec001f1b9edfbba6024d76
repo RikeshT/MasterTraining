@@ -1,0 +1,21 @@
+package Class_Example;
+
+public class IfElaseStatements {
+
+	public static void main(String[] args) {
+		
+//		if(condition)){
+//				codes
+//	}
+		int num= (int)(Math.random()*20);//typecasting
+		System.out.println(num);
+		if(num>10) 
+			System.out.println("Number is greater than 10");
+		else if(num<10 && num>5)
+			System.out.println("Number is between 10 and 5");
+		else 
+			System.out.println("Number is less than 10");
+		
+	}
+
+}
